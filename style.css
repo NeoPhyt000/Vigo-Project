@@ -1,0 +1,21 @@
+.navbar-main {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2acb35;
+}
+
+.social-div{
+    padding: 8px 16px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.login-div{
+    padding: 8px 16px;
+}
+
+.fa-brands{
+    padding: 10px 10px;
+}
