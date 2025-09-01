@@ -1,21 +1,140 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*-------Main Heading------------*/
 .navbar-main {
     display:flex;
-    justify-content: space-between;
     width: 100%;
+    margin: 0;
+    padding: 8px 16px;
     background-color: #2acb35;
+    
 }
 
+.navbar-border{
+    
+    border-color: #2acb35;
+    border-style: dashed;
+    margin-top: 2px;
+}
 .social-div{
+    width: 22%;
     padding: 8px 16px;
-    align-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    color: white;  
 
 }
 
 .login-div{
+    width: 78%;
     padding: 8px 16px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
 }
 
 .fa-brands{
     padding: 10px 10px;
+    color: white;
 }
+
+.fa-brands:hover{
+    color: black;
+}
+
+.fa-solid{
+    padding: 10px 10px;
+    margin: 0px 10px 0px 2px;
+    background-color: white;
+    color: black;
+    border: solid white;
+    border-radius: 50%;
+    
+}
+
+button{
+    padding: 0px 28px;
+    background-color: #2acb35;
+    border-style: none;
+}
+
+.heading1:hover{
+    color: white;
+}
+
+/*-----------Navbar---------------*/
+
+/* Make navbar sticky */
+.navbar-real {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.navbar-img{
+    width: 21%;
+    margin-left: 125px;
+    margin-bottom: 14px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: start;
+}
+
+.nav-menu{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+    padding: 10px 22px;
+    margin-bottom: 14px;
+    color: black;
+}
+
+.nav-menu a:hover{
+    color: #2acb35;
+}
+
+.nav-order{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+}
+.nav-order .order-btn{
+    color: white;
+    padding: 14px 20px;
+    border: solid #2acb35 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 15px;
+    font-family: "Lato" sans-serif;
+
+}
+
+.order-btn:hover{
+    background: white;
+    color: #2acb35;
+    transition: .3s ease-in-out;
+}
+
