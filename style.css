@@ -33,7 +33,6 @@
 
 .parent-navbar-right{
     padding: 8px 16px;
-    margin: 5px 35px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -77,3 +76,72 @@
     margin-top: 2px;
 }
 
+/*-----------Sticky Header----------*/
+
+.Header-parent{
+    width: 100%;  
+    height: 60px;
+    position: sticky;   
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-header{
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo{
+    height: 32px;
+    width: auto;
+}
+
+.center-header{
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.middle-item{
+    font-size: 15px;
+    font-weight: normal;
+    color: #212529;
+    text-decoration: none;
+    padding: 8px 22px;
+   
+}
+
+.middle-item:hover{
+    color: #2acb35;
+}
+
+.Order-btn{
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    padding: 14px 28px;
+    background-color: #2acb35;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    border-color: #2acb35;
+    
+}
+
+.Order-btn:hover{
+    color:#2acb35;
+    border: 1px solid;
+    border-color: #2acb35;
+    background-color: white;
+    transition: .4s ease-in-out;
+    
+}
+
+/*-------------Slider Code ------------------*/
