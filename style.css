@@ -293,7 +293,7 @@ p{
 .feature-section{
     width: 100%;
     padding-top: 60px;
-    
+    padding-bottom: 30px;
     background-image: url(/Vigo-Project/img/features-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -383,5 +383,11 @@ p{
     width: 85%;
     text-align: center;
     line-height: 1.5;
+}
+
+.feature-end-line{
+    width: 100%;
+    height: 2px;
+    opacity: 0.2;    
 }
 
