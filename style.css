@@ -214,6 +214,12 @@ p{
     border-color: #2acb35; 
 }
 
+.Ordernow-btn:hover{
+    color: #2acb35;
+    background-color: white;
+    border: solid 1px #2acb35;
+}
+
 /*----------Call to Action --------*/
 
 .call-to-action{
@@ -286,6 +292,14 @@ p{
     border-color: #2acb35; 
     display: flex;
     align-items: center;
+}
+
+.view-product-btn:hover{
+    color: white;
+    background-color:#2acb35;
+    border: solid 1px white;
+    transition: ease-out;
+    
 }
 
 /*+++++++++++Feature Section++++++++++++++++*/
