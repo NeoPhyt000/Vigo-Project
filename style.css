@@ -154,7 +154,7 @@
     padding: 50px 80px;
     box-sizing: border-box;
     background: url('/Vigo-Project/img/slider-img\ hero\ section.jpg') center/cover no-repeat;
-    min-height: 500px;
+    
 }
 
 
@@ -213,6 +213,7 @@ p{
 /*----------Call to Action --------*/
 
 .call-to-action{
+    margin-top: 30px;
     height: 220px;
     background-color: #2acb35;
     display: flex;
@@ -281,5 +282,102 @@ p{
     border-color: #2acb35; 
     display: flex;
     align-items: center;
-
 }
+
+/*+++++++++++Feature Section++++++++++++++++*/
+
+.feature-section{
+    width: 100%;
+    padding-top: 60px;
+    
+    background-image: url(/Vigo-Project/img/features-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.feature-parent-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+    gap: 20px;
+    
+    
+}
+
+.feature-content{
+    
+    align-self: center;
+    justify-items: center;
+}
+
+.f1{
+    font-size: 24px;
+    color: #28c940;
+}
+
+.f2{
+    font-size: 34px;
+}
+
+.rounded-line{
+      width: 120px;       
+      height: 8px;        
+      background-color: #28c940; 
+      border-radius: 10px; 
+      margin: 50px auto;
+}
+
+.feature-child-1{
+    padding: 11px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-child-2{
+    padding: 11px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-child-3{
+    padding: 11px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-child-4{
+    padding: 11px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Ficon-1{
+    margin: 5px;
+}
+
+.child-1{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.child-1-p{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    width: 85%;
+    text-align: center;
+    line-height: 1.5;
+}
+
