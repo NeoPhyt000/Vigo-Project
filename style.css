@@ -903,7 +903,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
     gap: 20px;
 
 }
@@ -926,9 +926,84 @@ p{
 
 .gallery-parent .gallery-img{
     box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px; 
 }
+
+/***************Supplement Packages******************/
+
+.supplement-packages{
+    margin-bottom: 54px;
+}
+.supplement-heading{
+    text-align: center;
+}
+
+.packages-cards{
+    padding-top: 44px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.packages-cards-1{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 50px 0px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+}
+
+.packages-cards-bold-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.packages-cards-bold-1::before,
+.packages-cards-bold-1::after{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #ccc;
+    margin: 0px 10px;
+}
+
+.packages-cards-1 img{
+    margin-bottom: 40px;
+}
+
+.packages-cards-bold{
+    padding: 10px;
+    font-size: 18px;
+    color: #212529;
+}
+
+.packages-cards-1 h3{
+    font-weight: normal;
+    color: #212529;
+}
+
+.packages-cards-1 .order-now-btn{
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.order-now-btn{
+    background-color: #2acb35;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.order-now-btn:hover{
+    background-color: white;
+    color: #2acb35;
+    border: 1px solid #2acb35;
+}
+
+
 
 
 
